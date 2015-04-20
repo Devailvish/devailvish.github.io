@@ -1,0 +1,24 @@
+div ul li:nth-child(3) a {
+    color: #f70;
+}
+div ul li:nth-child(4) a {
+    color: #f70;
+}
+div ul li:nth-child(5) a {
+    color: #f70;
+}
+div ul li:nth-child(5):after {
+    display: inline-block;
+    content: '\21F1';
+    transform: rotate(90deg);
+    margin-left: 5px;
+}
+div ul li:nth-child(6) a {
+    color: #666;
+}
+div ul li:nth-child(7) a {
+    color: #666;
+}
+div ul li:nth-child(8) a {
+    color: #666;
+}

@@ -1,0 +1,9 @@
+article p:first-of-type
+{
+    text-transform: uppercase;
+}
+
+article p:last-of-type:
+{
+   color: #999;
+}
