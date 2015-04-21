@@ -5,19 +5,19 @@ label[for="red"] {
 
     color: red;
     text-decoration: underline;
-    opacity: 1;
+    opacity: 0.5;
 }
 label[for="green"] {
 
     color: green;
     text-decoration: underline;
-    opacity: 1.5;
+    opacity: 0.5;
 }
 label[for="blue"] {
 
     color: blue;
     text-decoration: underline;
-    opacity: 2;
+    opacity: 0.5;
 }
 input[id="red"]:checked~label[for="red"] {
     opacity: 0.5;
