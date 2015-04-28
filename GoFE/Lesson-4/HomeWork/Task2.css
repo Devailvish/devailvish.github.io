@@ -1,0 +1,30 @@
+div{
+    box-shadow: 2px 2px 4px 2px #aaa;
+}
+nav{
+    width: 900px;
+    text-align: center;
+    position: fixed;
+    display: block;
+    background: #B507F5;
+}
+a{
+    display: inline-block;
+    font-family: Impact;
+    text-decoration: none;
+    color: white;
+    height: 25px;
+    background: #B507F5;
+    padding: 5px 10px 5px 10px;
+}
+a:hover {
+    background: #D2CCD5;
+    color: #999;
+    border-top: 2px solid #D2CCD5;
+    border-bottom: 2px solid #D2CCD5;
+    box-shadow: 0 0 5px 0px #aaa;
+}
+.more{
+    float: right;
+    margin-right: 10%;
+}
