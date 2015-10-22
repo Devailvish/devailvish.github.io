@@ -1,0 +1,422 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial;
+}
+
+/*header*/
+
+header {
+    background-color: #3498db;
+    height: 80px;
+    text-align: center;
+}
+
+.top_base {
+    width: 1000px;
+}
+
+header div {
+    display: inline-block;
+    color: #fff;
+}
+
+.top_name {
+    text-transform: uppercase;
+    font-size: 26px;
+    margin-top: 9px;
+    float: left;
+}
+
+.top_emblem {
+    border: 2px solid #fff;
+    border-radius: 100%;
+    padding: 13px 4px;
+}
+
+.top_link {
+    float: right;
+    margin: 30px auto auto auto;
+    position: relative;
+}
+
+.top_link div:first-child {
+    position: relative;
+    top: -5px;
+    right: 5px;
+    font-size: 13px;
+}
+
+/*Start line*/
+
+.lines{
+    background: url("project2_banner1.jpg") 100%;
+    font-size: 30px ;
+    color: #fff;
+    width: 100%;
+    height: 350px;
+}
+
+.lines_welcome {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.lines span {
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.lines_welcome_info {
+    float: left;
+    width: 56%;
+    margin-top: 70px;
+    line-height: 1.5;
+}
+
+/* Form */
+
+.start_info_box {
+    width: 350px;
+    padding: 30px 20px;
+    color: #333;
+    background-color: #fff;
+    border-bottom: 5px solid #3498db;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+.start_top {
+    text-align: center;
+    font-weight: 100;
+    font-size:  25px;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+.start_space {
+    padding: 5px 0;
+    width: 100%;
+}
+
+.select_point {
+    background: url(arrow.png) no-repeat;
+    background-position: 98% center;
+    font-size: 15px;
+    background-color: #f2f2f2;
+    border: 1px solid #e6e6e6;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    resize: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.form_row {
+    font-size: 15px;
+    background-color: #f2f2f2;
+    border: 1px solid #e6e6e6;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    resize: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.start_info_box .form_row {
+    width: 100%;
+}
+
+.form_row::-webkit-input-placeholder {
+    color: #333;
+}
+
+.form_row::-moz-placeholder {
+    color: #333;
+}
+
+.form_row:-ms-input-placeholder {
+    color: #333;
+}
+
+.start_info_box_button {
+    font-size: 25px;
+    background-color: #ff0f50;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    color: #fff;
+    padding: 10px 74px;
+    display: block;
+    margin: 20px auto 0;
+}
+
+.start_info_box_button:hover {
+    background-color: #d02f36;
+    cursor: pointer;
+}
+
+/* Banner History*/
+
+.line_about {
+    background-color: #f2f2f2;
+    color: #333333;
+    font-size: 13px;
+    height: 250px;
+}
+
+.line_about_frame {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.line_history {
+    width: 560px;
+    padding: 35px 0 50px 0;
+    line-height: 1.5;
+}
+
+.line_history span {
+    font-weight: bold;
+    font-size:  15px;
+    text-transform: uppercase;
+}
+
+/* Privelege */
+
+.privelege {
+    background-color: #fff;
+    text-align: center;
+    clear: both;
+}
+
+.privelege_title {
+    width: 1000px;
+    margin: 35px auto;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #3498db;
+    text-align: left;
+}
+
+.privelege_scroll {
+    width: 1000px;
+    margin: 0 auto;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.privelege_list {
+    display: inline-block;
+    width: 295px;
+    text-align: center;
+    color: #333333;
+    font-size: 13px;
+    line-height: 1.5;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
+
+.program {
+    margin: auto 52px;
+}
+
+.privelege_list span {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.privelege_list a {
+    text-decoration: none;
+    color: #333333;
+    border: 1px solid #e9e9e9;
+    border-radius: 100%;
+    padding: 13px 6px;
+}
+
+.privelege_button {
+    margin: 40px auto;
+}
+
+.privelege_button a:hover {
+    color: #fff;
+    background-color: #e9e9e9;
+    cursor: pointer;
+}
+
+/*Feedback*/
+
+.feedback {
+    width: 1000px;
+    margin: 40px auto 70px auto;
+    font-size: 13px ;
+    line-height: 1.5;
+}
+
+.feedback_title {
+    text-transform: uppercase;
+    color: #3498db;
+    font-size: 25px ;
+    margin: 0 0 65px 0;
+}
+
+.feedback_space_arrow {
+    border: 1px solid #ebebeb;
+    border-radius: 100%;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    padding: 10px;
+    opacity: 0.6;
+}
+.feedback_space_arrow_right {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}
+
+.feedback_space {
+    float: right;
+}
+
+.feedback_space_arrow:hover {
+    color: #333333;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.feedback_text {
+    width: 700px;
+    position: relative;
+}
+
+.feedback_text:before {
+    content: '\201c';
+    font-size: 50px;
+    position: absolute;
+    top: -1.1em;
+    letter-spacing: -5px;
+    color: #ebebeb;
+}
+
+.feedback_text:after {
+    content: '\201d';
+    font-size: 50px;
+    position: absolute;
+    right: 0;
+    top: 1.5em;
+    letter-spacing: -5px;
+    color: #ebebeb;
+}
+
+.feedback_text span {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:  13px;
+    float: right;
+}
+
+/* Deal */
+
+.deal {
+    background-color: #f2f2f2;
+    clear: both;
+}
+
+.deal_box {
+    width: 1000px;
+    height: 190px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.deal_box_button {
+    padding-top: 80px;
+}
+
+.deal_button {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #e74c3c;
+    padding: 15px 25px;
+    font-size: 25px ;
+    border-radius: 2px;
+}
+
+.deal_button_arrow {
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 10px;
+    margin-left: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.deal_button:hover {
+    background-color: #53a542;
+    cursor: pointer;
+}
+
+.feedback_photo {
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+}
+
+/*   Caudal  */
+
+footer {
+    background-color: #3498db;
+    height: 195px;
+}
+
+.caudal {
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+    padding: 65px 0;
+    position: relative;
+}
+
+footer div {
+    display: inline-block;
+    color: #fff;
+}
+
+.caudal_name {
+    text-transform: uppercase;
+    font-size: 26px ;
+    padding-right: 20px;
+    border-right: 1px solid #2980b9;
+}
+
+.caudal_emblem {
+    border: 2px solid #fff;
+    border-radius: 100%;
+    padding: 13px 4px;
+    vertical-align: top;
+}
+
+.caudal_link {
+    position: absolute;
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 13px;
+    top: 65px;
+    left: 250px;
+}
+
+.caudal_link span {
+    text-transform: uppercase;
+}
+
+.caudal_link_icon {
+    margin-left: 10px;
+}
+
+.caudal_link_icon div:first-child {
+    position: absolute;
+    top: 2px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/weather.css"/>
+    <link href="css/owfont-regular.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="weather">
+    <form action="" name="weather__form">
+        <input type="text" name="cityName" class="weather__input" autofocus placeholder="Введите город..."/>
+    </form>
+    <div class="weather__cities"></div>
+    <div class="weather__info"></div>
+</div>
+
+<script type="text/x-handlebars-template" class="templates__weather"></script>
+
+<script type="text/x-handlebars-template" class="templates__city">
+    {{#cities}}
+    <div tabindex="1" class="city" data-latitude="{{latitude}}" data-longitude="{{longitude}}">
+        <span class="city__name">{{name}}</span><span class="city__description">{{description}}</span>
+    </div>
+    {{/cities}}
+</script>
+
+<script src="http://twitter.github.com/hogan.js/builds/3.0.1/hogan-3.0.1.min.js"></script>
+<script src="weather.js"></script>
+<script>
+    var $ = document.querySelector.bind(document);
+    var weather = new Weather();
+    var inputNode = document.forms.weather__form.elements.cityName;
+    inputNode.addEventListener('input', function(){
+
+        weather.findCity(this.value);
+    });
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+@media (max-width: 999px) and (min-width: 780px) {
+    .top_base {
+        width: 780px;
+    }
+
+    .lines_welcome {
+        width: 780px;
+    }
+
+    .lines_welcome_info {
+        width: 50%;
+        font-size: 25px;
+    }
+
+    .start_info_box {
+        width: 280px;
+    }
+
+    .line_about_frame {
+        width: 780px;
+    }
+
+    .line_history {
+        width: 50%;
+    }
+
+    .privelege_title {
+        width: 780px;
+    }
+
+    .privelege_scroll {
+        width: 780px;
+    }
+
+    .privelege_list {
+        display: block;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .privelege_img {
+        float: left;
+        padding-right: 20px;
+    }
+
+    .program {
+        margin: 0;
+    }
+
+    .privelege_text {
+        width: 790px;
+        height: 160px;
+        text-align: left;
+        position: relative;
+    }
+
+    .privelege_button {
+        margin: 0;
+    }
+    .privelege_button a {
+        position: absolute;
+        bottom: -15px;
+    }
+    .feedback {
+        width: 780px;
+    }
+
+    .feedback_title {
+        font-size: 20px;
+    }
+
+    .feedback_text {
+        width: 560px;
+        text-align: justify;
+    }
+
+    .feedback_photo {
+        right: 0;
+    }
+
+    .deal_box {
+        width: 780px;
+    }
+
+    .deal_button {
+        font-size: 20px;
+        width: 450px;
+        padding: 10px 20px;
+    }
+
+    .caudal {
+        width: 780px;
+    }
+
+    .caudal_link {
+        top: 60px;
+    }
+
+}

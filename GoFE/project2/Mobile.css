@@ -1,0 +1,218 @@
+@media (max-width: 799px) and (min-width: 320px) {
+    header {
+        height: 160px;
+    }
+
+    .top_base {
+        width: 320px;
+    }
+
+    .top_name, .top_link, .top_emblem {
+        display: block;
+        float: none;
+        font-size: 20px;
+    }
+
+    .top_name {
+        width: 180px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #2980b9;
+        margin: 0 auto;
+    }
+
+    .top_emblem {
+        width: 45px;
+        margin: 15px auto 10px auto;
+    }
+
+    .top_link {
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .lines_welcome {
+        width: 320px;
+    }
+
+    .line span {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .lines_welcome_info {
+        text-align: center;
+        font-size: 16px;
+        width: 280px;
+        margin: 0 auto;
+        float: none;
+        padding-top: 25px;
+    }
+
+    .start_info_box {
+        width: 280px;
+        top: 175px;
+    }
+
+    .start_info_box_button {
+        font-size: 20px;
+        padding: 10px 50px;
+    }
+
+    .start_top {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .line_about {
+        height: 590px;
+    }
+
+    .line_about_frame {
+        width: 320px;
+    }
+
+    .line_history {
+        padding: 360px 0 35px 0;
+        width: 310px;
+        text-align: center;
+    }
+
+    .privelege_title {
+        width: 320px;
+        text-align: center;
+        font-size: 20px;
+        margin: 15px auto;
+    }
+
+    .privelege_scroll {
+        width: 320px;
+    }
+
+    .privelege_list {
+        margin-bottom: 20px;
+    }
+
+    .program {
+        margin: 0;
+    }
+
+    .privelege_text {
+        text-align: center;
+    }
+
+    .privelege_button {
+        margin: 25px 0;
+    }
+
+    .feedback {
+        width: 320px;
+    }
+
+    .feedback_title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .feedback_space {
+        float: none;
+        padding-top: 10px;
+    }
+
+    .feedback_title a {
+        padding: 0 6px;
+    }
+
+    .feedback_text {
+        width: 320px;
+        text-align: justify;
+    }
+
+    .feedback_text:before {
+        top: -0.9em;
+    }
+
+    .feedback_text:after {
+        top: 2.1em;
+    }
+
+    .feedback_photo {
+        right: 0;
+        z-index: 1;
+    }
+
+    .deal_box {
+        margin-top: 150px;
+        width: 320px;
+        height: 240px;
+    }
+
+    .deal_button {
+        position: absolute;
+        top: 60px;
+        left: 5%;
+        z-index: 2;
+        font-size: 20px;
+        text-align: center;
+        width: 240px;
+        height: 80px;
+        padding: 10px 20px;
+    }
+
+    .deal_button_arrow {
+        position: absolute;
+        top: 65px;
+        left: 126px;
+        margin: 0;
+    }
+
+    footer {
+        height: 380px;
+    }
+
+    .caudal {
+        width: 320px;
+        padding: 30px 0 50px 0;
+    }
+
+    .caudal_name, .caudal_emblem, .caudal_link {
+        display: block;
+        float: none;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .caudal_name {
+        width: 180px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #2980b9;
+        border-right: none;
+        margin: 0 auto;
+    }
+
+    .caudal_emblem {
+        width: 45px;
+        margin: 15px auto 10px auto;
+    }
+
+    .caudal_link {
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 0;
+        padding-left: 0;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .caudal_link div:first-child {
+        top: 2px;
+        left: 92px;
+        font-size: 13px;
+    }
+
+    .caudal_creator {
+        padding-top: 30px;
+        font-size: 13px;
+    }
+
+}

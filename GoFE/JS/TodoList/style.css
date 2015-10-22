@@ -1,0 +1,75 @@
+input, button
+{
+    font: normal 16px sans-serif;
+}
+
+.todo
+{
+    background-color: #eee;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px 20px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.todo__list-item
+{
+    display: block;
+    margin: 10px;
+
+    background-color: #ddd;
+    border-radius: 5px;
+    border-bottom: 1px solid #aaa;
+    padding: 5px 0;
+}
+
+.todo__list-item-checkbox:checked + .todo__list-item-text
+{
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.todo__list-item-text
+{
+    width: 300px;
+    border: 1px solid transparent;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: transparent;;
+    font-style: italic;
+    vertical-align: middle;
+}
+
+.todo__list-item-checkbox
+{
+    margin-left: -5px;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.todo__submit
+{
+    border: 1px solid green;
+    background-color: #5a5;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.todo__submit:hover
+{
+    background-color: #5b5;
+    cursor: pointer;
+}
+
+.todo__input
+{
+    padding: 5px 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}

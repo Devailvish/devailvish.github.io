@@ -1,0 +1,86 @@
+.weather {
+    background-color: #eee;
+    font-family: sans-serif;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.weather__input {
+    font-size: 1.5em;
+    padding: .5em;
+    margin: 0 auto;
+}
+
+.weather__cities {
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+
+.weather__cities .city {
+    padding: 2px 0;
+}
+
+.weather__cities .city .city__description {
+    color: #888;
+    margin-left: 1em;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.weather__cities .city:hover {
+    cursor: pointer;
+    color: #333;
+}
+
+.weather__description {
+    text-align: center;
+    font-size: 0.8em;
+    width: 60px;
+    line-height: 1;
+    color: #555;
+}
+
+.weather__cities .city:focus {
+    color: forestgreen;
+}
+
+.weather__info {
+    background-color: #ddd;
+    padding: 20px;
+    width: 260px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+.weather__temperature {
+    color: orangered;
+}
+
+.weather__pressure {
+    color: forestgreen;
+}
+
+.weather__info:empty {
+    display: none;
+}
+
+.weather__name {
+    font-weight: bold;
+}
+
+.weather__icon {
+    float: right;
+}
+
+.weather__icon .owf {
+    color: #bbb;
+}
+
+::-moz-progress-bar {
+    background-color: deepskyblue;
+    border: 0;
+}
