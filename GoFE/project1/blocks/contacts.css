@@ -1,0 +1,156 @@
+.contacts
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contacts__map
+{
+    display: inline-block;
+    float: right;
+
+    width: 50%;
+    height: 345px;
+}
+
+.contacts__credentials
+{
+    display: inline-block;
+
+    width: 50%;
+    height: 345px;
+    margin: 0 auto;
+}
+
+.contacts__list
+{
+    margin: 5% 0 15px 30%;
+
+    list-style: none;
+}
+
+.contacts__list-item
+{
+    font-family: 'OpenSans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 36px;
+
+    position: relative;
+
+    text-align: left;
+
+    color: #666;
+}
+
+.contacts__list-item-adress:before
+{
+    position: absolute;
+    left: -50px;
+
+    width: 23px;
+    height: 31px;
+
+    content: '';
+
+    background: url(img/spritesheet.png);
+    background-position: -5px -5px;
+}
+
+.contacts__list-item-phone:before
+{
+    position: absolute;
+    left: -48px;
+
+    width: 18px;
+    height: 26px;
+
+    content: '';
+
+    background: url(img/spritesheet.png);
+    background-position: -38px -5px;
+}
+
+.contacts__list-item-mail:before
+{
+    position: absolute;
+    top: 8px;
+    left: -50px;
+
+    width: 23px;
+    height: 16px;
+
+    content: '';
+
+    background: url(img/spritesheet.png);
+    background-position: -66px -5px;
+}
+
+.contacts__mail
+{
+    font-family: 'OpenSans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 36px;
+
+    -webkit-transition: color .5s ease-out .2s;
+       -moz-transition: color .5s ease-out .2s;
+         -o-transition: color .5s ease-out .2s;
+            transition: color .5s ease-out .2s;
+    text-decoration: none;
+
+    color: #666;
+}
+
+.contacts__mail:hover
+{
+    color: #aaa;
+}
+
+.contacts__links-box
+{
+    margin: 15px 27%;
+}
+
+.contacts__link
+{
+    display: inline-block;
+
+    -webkit-transition: transform 1s ease-out .2s;
+       -moz-transition: transform 1s ease-out .2s;
+         -o-transition: transform 1s ease-out .2s;
+            transition: transform 1s ease-out .2s;
+    text-decoration: none;
+}
+
+.contacts__link:hover
+{
+    transform: rotate(360deg);
+}
+
+.contacts__link__fb
+{
+    width: 48px;
+    height: 49px;
+
+    background: url(img/spritesheet.png);
+    background-position: -99px -3px;
+}
+
+.contacts__link__tw
+{
+    width: 48px;
+    height: 49px;
+
+    background: url(img/spritesheet.png);
+    background-position: -215px -3px;
+}
+
+.contacts__link__in
+{
+    width: 48px;
+    height: 49px;
+
+    background: url(img/spritesheet.png);
+    background-position: -157px -3px;
+}

@@ -1,0 +1,80 @@
+.menu
+{
+    font-family: 'OpenSans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 58px;
+
+    position: relative;
+
+    display: block;
+    float: right;
+
+    width: 65%;
+    height: 100%;
+
+    text-align: right;
+
+    color: #3070a8;
+}
+
+.menu__list
+{
+    display: inline-block;
+
+    margin-top: 40px;
+}
+
+.menu__item
+{
+    line-height: 15px;
+
+    display: inline-block;
+
+    margin-right: 5px;
+    padding: 0 3px 0 3px;
+
+    -webkit-transition: border-bottom .4s ease-out .2s;
+       -moz-transition: border-bottom .4s ease-out .2s;
+         -o-transition: border-bottom .4s ease-out .2s;
+            transition: border-bottom .4s ease-out .2s;
+    text-align: right;
+}
+
+.menu__item_current_true
+{
+    border-bottom: 4px solid #3070a8;
+}
+
+.menu__item_current_true .menu__link
+{
+    color: #3070a8;
+}
+
+.menu__link
+{
+    display: inline-block;
+
+    height: 52px;
+    padding: 0 5px 0 5px;
+
+    -webkit-transition: color .2s ease-out .2s;
+       -moz-transition: color .2s ease-out .2s;
+         -o-transition: color .2s ease-out .2s;
+            transition: color .2s ease-out .2s;
+    vertical-align: baseline;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #989898;
+}
+
+.menu__item:hover
+{
+    border-bottom: 4px solid #3070a8;
+}
+
+.menu__link:hover
+{
+    color: #3070a8;
+}

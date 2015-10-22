@@ -1,0 +1,285 @@
+@media only screen and (max-width: 1088px)
+{
+    .menu__item
+    {
+        line-height: 15px;
+
+        display: inline-block;
+
+        margin-right: -5px;
+        padding: 0;
+
+        text-align: right;
+    }
+    .benefits__item-middle
+    {
+        margin: 0 0 30px 0;
+    }
+}
+
+@media only screen and (max-width: 1035px)
+{
+    .header
+    {
+        display: block;
+
+        width: 100%;
+        height: 156px;
+        margin: 0;
+        padding: 0;
+
+        text-align: left;
+
+        background: #fff;
+    }
+    .header__inner
+    {
+        display: inline-block;
+
+        min-width: 100%;
+        margin: 0 auto;
+    }
+    .menu
+    {
+        line-height: normal;
+
+        display: block;
+
+        width: 100%;
+        height: 50px;
+
+        text-align: center;
+    }
+    .logo
+    {
+        display: inline-block;
+
+        width: 100%;
+        height: 100px;
+
+        text-align: center;
+    }
+    .logo__image
+    {
+        position: relative;
+
+        display: inline-block;
+
+        margin: 0 auto;
+    }
+    .menu__list
+    {
+        display: inline-block;
+
+        margin-top: 0;
+    }
+    .menu__item
+    {
+        line-height: normal;
+
+        display: inline-block;
+
+        margin-right: 0;
+        padding: 0 3px 0 3px;
+
+        text-align: left;
+    }
+    .benefits__item-middle
+    {
+        margin: 0 0 30px 0;
+    }
+}
+
+@media only screen and (max-width: 894px)
+{
+    .offers
+    {
+        font-family: 'Trebuchet MS', sans-serif;
+
+        display: inline-block;
+
+        width: 100%;
+        height: 100%;
+        margin: 78px auto 78px auto;
+
+        text-align: center;
+        vertical-align: middle;
+
+        background: #fff;
+    }
+    .offers__price-box
+    {
+        display: inline-block;
+
+        width: 288px;
+        margin: 5% 17% 5% 17%;
+
+        border: 1px solid #e8eaec;
+        border-radius: 5px;
+    }
+    .offers__price-box.aqua
+    {
+        left: 0;
+    }
+    .offers__price-box.cyan
+    {
+        right: 0;
+    }
+    .offers__price-box.orange
+    {
+        top: 0;
+
+        display: inline-block;
+
+        min-width: 280px;
+
+        border: 4px solid #ee8129;
+        border-radius: 5px;
+        box-shadow: 0 0 12.87px .13px rgba(8, 116, 178, .4);
+
+        -min-height: 447px;
+    }
+}
+
+@media only screen and (max-width: 678px)
+{
+    .contacts__links-box
+    {
+        margin: 0 5%;
+    }
+    .contacts__list
+    {
+        margin: 5% 0 15px 10%;
+
+        list-style: none;
+    }
+}
+
+@media only screen and (max-width: 576px)
+{
+    .reviews__item__content
+    {
+        max-width: 265px;
+        margin-right: 0;
+    }
+    .reviews__item__content:after,
+    .reviews__item__content:before
+    {
+        right: 260px;
+    }
+    .reviews__item__content:after
+    {
+        margin-top: -20px;
+
+        border-width: 20px;
+        border-right-color: #fff;
+    }
+    .reviews__item__content:before
+    {
+        margin-top: -20px;
+
+        border-width: 20px;
+    }
+}
+
+@media only screen and (max-width: 550px)
+{
+    .menu
+    {
+        line-height: normal;
+
+        display: block;
+        float: left;
+
+        width: 480px;
+        height: 50px;
+    }
+    .menu__list
+    {
+        position: relative;
+        left: -30px;
+
+        display: inline-block;
+
+        width: 100%;
+        margin: 0;
+    }
+    .menu__item
+    {
+        line-height: normal;
+
+        display: inline-block;
+
+        margin: 0;
+        padding: 0;
+
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 500px)
+{
+    .contacts__links-box
+    {
+        margin: 0 5%;
+    }
+    .contacts__list
+    {
+        margin: 5% 0 15px -5px;
+
+        list-style: none;
+    }
+    .contacts__list-item
+    {
+        font-family: 'OpenSans', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 36px;
+
+        position: relative;
+
+        text-align: left;
+
+        color: #666;
+    }
+    .contacts__list-item-adress:before
+    {
+        position: absolute;
+        left: -30px;
+
+        width: 23px;
+        height: 31px;
+
+        content: '';
+
+        background: url(img/spritesheet.png);
+        background-position: -5px -5px;
+    }
+    .contacts__list-item-phone:before
+    {
+        position: absolute;
+        left: -28px;
+
+        width: 18px;
+        height: 26px;
+
+        content: '';
+
+        background: url(img/spritesheet.png);
+        background-position: -38px -5px;
+    }
+    .contacts__list-item-mail:before
+    {
+        position: absolute;
+        top: 8px;
+        left: -30px;
+
+        width: 23px;
+        height: 16px;
+
+        content: '';
+
+        background: url(img/spritesheet.png);
+        background-position: -66px -5px;
+    }
+}

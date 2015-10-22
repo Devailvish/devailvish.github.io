@@ -1,0 +1,148 @@
+.reviews
+{
+    display: inline-block;
+
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 58px;
+    padding-bottom: 79px;
+
+    text-align: center;
+
+    background: url(img/bg.png);
+    background-size: contain;
+}
+
+.reviews__header
+{
+    font: 400 40px / 18px 'Trebuchet MS', sans-serif;
+
+    margin-bottom: 50px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #3170a8;
+}
+
+.reviews__header-emphasized
+{
+    color: #ee8129;
+}
+
+.reviews__item
+{
+    display: inline-block;
+
+    margin-top: 50px;
+    margin-left: 30px;
+
+    text-align: left;;
+}
+/*
+.reviews__item:nth-child(even) {
+margin-left: 5%;
+} */
+
+.reviews__item__img
+{
+    position: relative;
+
+    float: left;
+
+    width: 98px;
+    height: 99px;
+    margin-right: 22px;
+}
+
+.reviews__item__content
+{
+    position: relative;
+
+    display: inline-block;
+
+    max-width: 365px;
+    margin-right: 43px;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+.reviews__item__content:after,
+.reviews__item__content:before
+{
+    position: absolute;
+    top: 35px;
+    right: 360px;
+
+    width: 0;
+    height: 0;
+
+    content: '';
+    pointer-events: none;
+
+    border: solid transparent;
+}
+
+.reviews__item__content:after
+{
+    margin-top: -20px;
+
+    border-width: 20px;
+    border-color: rgba(255, 255, 255, 0);
+    border-right-color: #fff;
+}
+
+.reviews__item__content:before
+{
+    margin-top: -20px;
+
+    border-width: 20px;
+    border-color: rgba(255, 255, 255, 0);
+    border-right-color: #fff;
+}
+
+.reviews__item__content-heading
+{
+    font: 700 italic 13px / 24px 'Trebuchet MS', sans-serif;
+
+    overflow: hidden;
+
+    margin: 10px 20px 0 16px;
+    padding-bottom: 4px;
+
+    color: #3070a8;
+    border-bottom: 1px dashed #666;
+}
+
+.reviews__item__heading-name
+{
+    display: inline;
+    float: left;
+}
+
+.reviews__item__heading-name:before
+{
+    width: 0;
+    height: 0;
+
+    content: '- ';
+    pointer-events: none;
+}
+
+.reviews__item__heading-type
+{
+    display: inline;
+    float: right;
+}
+
+.reviews__item__text
+{
+    font: 500 13px / 20px 'Trebuchet MS', sans-serif;
+
+    margin: 6px 20px 10px 16px;
+
+    color: #666;
+}

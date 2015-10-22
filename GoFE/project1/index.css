@@ -1,0 +1,20 @@
+@import url('blocks/header.css');
+@import url('blocks/logo.css');
+@import url('blocks/menu.css');
+@import url('blocks/intro.css');
+@import url('blocks/benefits.css');
+@import url('blocks/info.css');
+@import url('blocks/offers.css');
+@import url('blocks/reviews.css');
+@import url('blocks/contacts.css');
+@import url('blocks/footer.css');
+@import url('blocks/queries.css');
+
+.page
+{
+    min-width: 535px;
+    margin: 0;
+    padding: 0;
+
+    background: #fff;
+}

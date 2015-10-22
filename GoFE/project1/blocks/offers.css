@@ -1,0 +1,329 @@
+.offers
+{
+    font-family: 'Trebuchet MS', sans-serif;
+
+    display: inline-block;
+
+    width: 100%;
+    height: 100%;
+    margin: 78px auto 78px auto;
+
+    text-align: center;
+    vertical-align: middle;
+
+    background: #fff;
+}
+
+.offers__heading
+{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 25px;
+
+    margin-bottom: 68px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #40525c;
+}
+
+.offers__price-box__heading,
+  .offers__price-box__body-heading,
+  .offers__price-box__list-unordered
+{
+    margin: auto;
+    padding: 0;
+
+    border: none;
+    outline: none;
+}
+
+.offers__price-box
+{
+    position: relative;
+
+    display: inline-block;
+
+    min-width: 288px;
+
+    border: 1px solid #e8eaec;
+    border-radius: 5px;
+}
+
+.offers__price-box__head
+{
+    min-height: 63px;
+    margin-bottom: 0;
+
+    background-color: #e8eaec;
+}
+
+.offers__price-box__heading
+{
+    font: 700 24px / 63px 'Trebuchet MS', sans-serif;
+
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+.offers__price-box__body
+{
+    overflow: hidden;
+
+    min-height: 375px;
+
+    background-color: white;
+}
+
+.offers__price-box__body h3
+{
+    font: 700 24px / 68px 'Trebuchet MS', sans-serif;
+
+    text-transform: uppercase;
+
+    color: #35495a;
+}
+  /* Price Box Main Text style  */
+
+.offers__price-box__text
+{
+    line-height: 68px;
+
+    display: block;
+
+    text-align: center;
+    vertical-align: middle;
+
+    color: #35495a;
+}
+
+.offers__price-box__text-sup
+{
+    font-size: 20px;
+    font-weight: 700;
+
+    position: relative;
+    bottom: 40px;
+
+    display: inline;
+
+    letter-spacing: -1.8px;
+}
+
+.offers__price-box__text-big
+{
+    font-size: 72px;
+    font-weight: 700;
+
+    display: inline;
+
+    letter-spacing: -3.6px;
+}
+
+.offers__price-box__text-sub
+{
+    font-size: 17px;
+    font-weight: 700;
+
+    position: relative;
+    top: 5px;
+
+    display: inline;
+}
+  /* Price Box List */
+
+.offers__price-box__list
+{
+    font-size: 15px;
+    font-weight: 400;
+
+    margin: 10px 14px 18px 14px;
+
+    text-align: left;
+    letter-spacing: .75px;
+
+    color: #888c94;
+}
+
+.offers__price-box__list-item
+{
+    margin: 1px;
+    padding: 8px 0 8px 0;
+
+    list-style: none;
+
+    background-color: #edf5fd;
+}
+
+.offers__price-box__list-item__inner
+{
+    margin-left: 33px;
+    padding-left: 26px;
+
+    background: url('img/list_img.png') no-repeat 0 0;
+}
+
+.text-uppercase
+{
+    text-transform: uppercase;
+}
+
+.offers__price-box__list-item:nth-child(even)
+{
+    background-color: #f5f5f6;
+}
+  /* Button */
+
+.offers__price-box__button
+{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+
+    display: block;
+
+    width: 253px;
+    height: 38px;
+    margin: auto;
+    padding: 0;
+
+    text-align: center;
+    letter-spacing: .7px;
+    text-transform: uppercase;
+
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    -webkit-box-shadow: 0 3px 0 0 #1f1f1f;
+       -moz-box-shadow: 0 3px 0 0 #1f1f1f;
+            box-shadow: 0 3px 0 0 #1f1f1f;
+}
+
+.offers__price-box__button:active
+{
+    -webkit-box-shadow: inset 2px 2px 0 1px #1f1f1f;
+       -moz-box-shadow: inset 2px 2px 0 1px #1f1f1f;
+            box-shadow: inset 2px 2px 0 1px #1f1f1f;
+}
+
+.offers__price-box__button:focus
+{
+    outline: 0;
+}
+  /* COLORS */
+
+.orange
+{
+    background-color: #ee8129;
+}
+
+.blue
+{
+    background-color: #3371a6;
+}
+
+.offers__price-box.aqua
+{
+    left: 8px;
+}
+
+.offers__price-box.cyan
+{
+    right: 8px;
+}
+
+.offers__price-box.orange
+{
+    z-index: 999;
+    top: 8px;
+
+    min-width: 280px;
+
+    border: 4px solid #ee8129;
+    border-radius: 5px;
+    box-shadow: 0 0 12.87px .13px rgba(8, 116, 178, .4);
+
+    -min-height: 447px;
+}
+
+.offers__price-box.orange .offers__price-box__head
+{
+    background-color: #ee8129;
+}
+
+.offers__price-box.orange .offers__price-box__heading
+{
+    font: 700 24px / 65px 'Trebuchet MS';
+
+    margin-bottom: 5px;
+
+    border-radius: 5px 5px 0 0;
+}
+
+.offers__price-box.aqua .offers__price-box__head
+{
+    border-radius: 5px 5px 0 0;
+    background-color: #37c2d3;
+}
+
+.offers__price-box.cyan .offers__price-box__head
+{
+    border-radius: 5px 5px 0 0;
+    background-color: #1cb79a;
+}
+
+.offers__price-box.orange .offers__price-box__body
+{
+    min-height: 332px;
+
+    -padding-bottom: 33px;
+}
+
+.offers__price-box__button.orange
+{
+    margin-bottom: 24px;
+
+    -webkit-box-shadow: 0 3px 0 0 #b3560b;
+       -moz-box-shadow: 0 3px 0 0 #b3560b;
+            box-shadow: 0 3px 0 0 #b3560b;
+}
+
+.offers__price-box__button.blue:hover
+{
+    cursor: pointer;
+
+    background-color: rgba(51, 113, 166, .8);
+}
+
+.offers__price-box__button.orange:hover
+{
+    cursor: pointer;
+
+    background-color: rgba(238, 129, 41, .8);
+}
+
+.offers__price-box__button.orange:active
+{
+    -webkit-box-shadow: inset 2px 2px 0 1px rgba(179, 86, 11, 1);
+       -moz-box-shadow: inset 2px 2px 0 1px rgba(179, 86, 11, 1);
+            box-shadow: inset 2px 2px 0 1px rgba(179, 86, 11, 1);
+}
+
+.offers__price-box__button.blue
+{
+    -webkit-box-shadow: 0 3px 0 0 rgba(64, 82, 92, 1);
+       -moz-box-shadow: 0 3px 0 0 rgba(64, 82, 92, 1);
+            box-shadow: 0 3px 0 0 rgba(64, 82, 92, 1);
+}
+
+.offers__price-box__button.blue:active
+{
+    -webkit-box-shadow: inset 2px 2px 0 1px rgba(64, 82, 92, 1);
+       -moz-box-shadow: inset 2px 2px 0 1px rgba(64, 82, 92, 1);
+            box-shadow: inset 2px 2px 0 1px rgba(64, 82, 92, 1);
+}
